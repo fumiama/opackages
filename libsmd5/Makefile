@@ -6,14 +6,14 @@
 #
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=simple-md5
-PKG_RELEASE:=1.0
+PKG_NAME:=simple-crypto
+PKG_RELEASE:=2
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2021-06-01
-PKG_SOURCE_VERSION:=bd25ddf9f6fac93bc768611ec223bf517b29b689
-PKG_SOURCE_URL:=https://github.com/fumiama/simple-md5-lib.git
+PKG_SOURCE_DATE:=2021-12-11
+PKG_SOURCE_VERSION:=634b4c14261a6c857d7fbb7c1bd99729c2df07d8
+PKG_SOURCE_URL:=https://github.com/fumiama/simple-crypto.git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
@@ -23,28 +23,28 @@ PKG_LICENSE_FILES:=COPYING
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
-define Package/libsmd5
+define Package/libscrypto
   SECTION:=libs
   CATEGORY:=Libraries
-  TITLE:=Simple md5 library
-  URL:=https://github.com/fumiama/simple-md5-lib
+  TITLE:=Simple crypto library
+  URL:=https://github.com/fumiama/simple-crypto
 endef
 
-define Package/libsmd5/description
+define Package/libscrypto/description
  This package contains a library for simple-* apps.
 endef
 
-define Package/libsmd5/install
+define Package/libscrypto/install
 	$(INSTALL_DIR) $(1)/usr/lib
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libsmd5.so $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libscrypto.so $(1)/usr/lib/
 endef
 
 define Build/InstallDev
 	$(INSTALL_DIR) $(1)/usr/include/
-	$(CP) $(PKG_INSTALL_DIR)/usr/include/simplemd5.h $(1)/usr/include/
+	$(CP) $(PKG_INSTALL_DIR)/usr/include/simplecrypto.h $(1)/usr/include/
 	
 	$(INSTALL_DIR) $(1)/usr/lib
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libsmd5.so $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libscrypto.so $(1)/usr/lib/
 endef
 
-$(eval $(call BuildPackage,libsmd5))
+$(eval $(call BuildPackage,libscrypto))

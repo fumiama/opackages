@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/simple-dict-server
   SECTION:=utils
   CATEGORY:=Server
-  DEPENDS:=+libpthread +libspb +libsmd5
+  DEPENDS:=+libpthread +libspb +libscrypto
   TITLE:=simple-dict-server
   MAINTAINER:=fumiama
 endef

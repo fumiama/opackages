@@ -44,7 +44,7 @@ define Build/InstallDev
 	$(CP) $(PKG_INSTALL_DIR)/usr/include/simplecrypto.h $(1)/usr/include/
 	
 	$(INSTALL_DIR) $(1)/usr/lib
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libscrypto.so $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libscrypto.{a,so*} $(1)/usr/lib/
 endef
 
 $(eval $(call BuildPackage,libscrypto))

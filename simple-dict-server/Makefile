@@ -42,7 +42,7 @@ define Package/simple-dict-server/postinst
 	sed -i '/simple-dict-server/d' /etc/rc.local
 	mkdir -p /home/nobody
 	chown 65534:65534 /home/nobody
-	echo "#/usr/bin/simple-dict-server -d 8000 1 /home/nobody/dict.sp /home/nobody/cfg.sp 2>&1 > /dev/null" >> /etc/rc.local
+	echo "#/usr/bin/simple-dict-server -d 8000 /home/nobody/dict.sp /home/nobody/cfg.sp 2>&1 > /dev/null" >> /etc/rc.local
 	echo "exit 0" >> /etc/rc.local
 	exit 0
 endef

@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=simple-dict-server
-PKG_RELEASE:=8
+PKG_RELEASE:=9
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2022-04-18
-PKG_SOURCE_VERSION:=533510eb168818dfff00c266a910ccdb58129de4
-PKG_SOURCE_URL:=https://github.com/fumiama/simple-dict-server.git
+PKG_SOURCE_DATE:=2022-05-16
+PKG_SOURCE_VERSION:=1295a40afd0c8f0a9a3496357d0346db63f35da4
+PKG_SOURCE_URL:=https://github.com/fumiama/simple-dict.git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>

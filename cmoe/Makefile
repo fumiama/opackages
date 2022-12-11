@@ -9,8 +9,7 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_DATE:=2022-11-23
 PKG_SOURCE_VERSION:=34f64fd01b44c5bf80bd34d9d0838cc6e09be9df
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/fumiama/CMoe-Counter.git
-PKG_SOURCE:=https://github.com/fumiama/CMoe-Counter/archive/refs/tags/v$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/fumiama/CMoe-Counter/archive/refs/tags/v$(PKG_VERSION).tar.gz
 PKG_HASH:=986502ae4c2909797bc032fba379f4176ba1c0c15a2ca7784e9c74abbfa00d61
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>

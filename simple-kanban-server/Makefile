@@ -1,18 +1,18 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=simple-kanban-server
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2022-03-06
-PKG_SOURCE_VERSION:=1ae1138496e545e6a85b8ca55d2f8ede4ccd82b0
+PKG_SOURCE_DATE:=2022-11-25
+PKG_SOURCE_VERSION:=861c03b12ceaa5f5d7feb4fe7e487dbe2d721af0
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-kanban.git
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-kanban/archive/refs/tags/$(PKG_RELEASE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
-PKG_LICENSE:=MIT
-PKG_LICENSE_FILES:=COPYING
+PKG_LICENSE:=GPL-3.0
+PKG_LICENSE_FILES:=LICENSE
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk

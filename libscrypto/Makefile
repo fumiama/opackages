@@ -8,7 +8,7 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_DATE:=2022-10-15
 PKG_SOURCE_VERSION:=4b09328d0cf4f04a3f340ec6f53baedbbdbf3252
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-crypto.git
-PKG_SOURCE:=https://github.com/fumiama/simple-crypto/archive/refs/tags/4.tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-crypto/archive/refs/tags/$(PKG_RELEASE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=MIT

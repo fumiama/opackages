@@ -9,7 +9,7 @@ CMAKE_INSTALL:=1
 # PKG_SOURCE_DATE:=2022-10-15
 # PKG_SOURCE_VERSION:=4b09328d0cf4f04a3f340ec6f53baedbbdbf3252
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-crypto/tar.gz/$(PKG_RELEASE)?
+PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-crypto/tar.gz/$(PKG_VERSION)?
 PKG_HASH:=d1053d004744dcdbc486500a857c84115cb7f6096958dc6d7bde207b9402848b
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>

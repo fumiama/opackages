@@ -2,14 +2,14 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=simple-kanban
 PKG_RELEASE:=4
-PKG_VERSION:=4
+PKG_VERSION:=4.0.1
 CMAKE_INSTALL:=1
 
 # PKG_SOURCE_PROTO:=git
 # PKG_SOURCE_DATE:=2022-11-25
 # PKG_SOURCE_VERSION:=861c03b12ceaa5f5d7feb4fe7e487dbe2d721af0
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-kanban/tar.gz/$(PKG_RELEASE)?
+PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-kanban/tar.gz/$(PKG_VERSION)?
 PKG_HASH:=a16f51204cebbd7f48bab578009228ca74083b22ac18fcd3b2d6d29ca2b4561c
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>

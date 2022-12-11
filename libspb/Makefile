@@ -11,10 +11,10 @@ PKG_RELEASE:=4
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2022-04-06
+PKG_SOURCE_DATE:=2022-05-06
 PKG_SOURCE_VERSION:=e23ac9b6c0ad5d18097fc5f64e48cf55dfddef1a
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-protobuf.git
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-protobuf/archive/refs/tags/$(PKG_RELEASE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=MIT

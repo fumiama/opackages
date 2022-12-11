@@ -8,7 +8,7 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_DATE:=2022-11-11
 PKG_SOURCE_VERSION:=702b8d75e203a32ea20995bff8815475e15fa60f
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-http-server.git
-PKG_SOURCE:=https://github.com/fumiama/simple-http-server/archive/refs/tags/4.tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-http-server/archive/refs/tags/$(PKG_RELEASE).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=MIT

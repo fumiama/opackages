@@ -1,20 +1,14 @@
-#
-# Copyright (C) 2006-2014 OpenWrt.org
-#
-# This is free software, licensed under the GNU General Public License v2.
-# See /LICENSE for more information.
-#
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=simple-crypto
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2022-04-18
-PKG_SOURCE_VERSION:=95f76aa7302911d68088e14915a7f01de1de2fe9
+PKG_SOURCE_DATE:=2022-10-15
+PKG_SOURCE_VERSION:=4b09328d0cf4f04a3f340ec6f53baedbbdbf3252
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-crypto.git
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-crypto/archive/refs/tags/4.tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=MIT

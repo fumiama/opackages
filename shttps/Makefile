@@ -1,18 +1,18 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shttps
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2022-03-06
-PKG_SOURCE_VERSION:=c6c61976b41fe1356baae745ccff53932def08a6
+PKG_SOURCE_DATE:=2022-11-11
+PKG_SOURCE_VERSION:=702b8d75e203a32ea20995bff8815475e15fa60f
 PKG_SOURCE_URL:=https://github.com/fumiama/simple-http-server.git
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_SOURCE_DATE).tar.gz
+PKG_SOURCE:=https://github.com/fumiama/simple-http-server/archive/refs/tags/4.tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=MIT
-PKG_LICENSE_FILES:=COPYING
+PKG_LICENSE_FILES:=LICENSE
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk

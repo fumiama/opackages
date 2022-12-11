@@ -8,6 +8,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=simple-protobuf
 PKG_RELEASE:=4
+PKG_VERSION:=4
 CMAKE_INSTALL:=1
 
 # PKG_SOURCE_PROTO:=git
@@ -18,8 +19,8 @@ PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-protobuf/tar.gz/$(PKG
 PKG_HASH:=a3319f6399882d83f6a0b088f7f4fad74374fdaf345d857a5efc702c293a88fd
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
-PKG_LICENSE:=MIT
-PKG_LICENSE_FILES:=COPYING
+PKG_LICENSE:=GPL-3.0
+PKG_LICENSE_FILES:=LICENSE
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk

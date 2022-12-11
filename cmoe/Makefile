@@ -2,13 +2,14 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cmoe
 PKG_RELEASE:=6
+PKG_VERSION:=6.0.0
 CMAKE_INSTALL:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_DATE:=2022-11-23
 PKG_SOURCE_VERSION:=34f64fd01b44c5bf80bd34d9d0838cc6e09be9df
 PKG_SOURCE_URL:=https://github.com/fumiama/CMoe-Counter.git
-PKG_SOURCE:=https://github.com/fumiama/CMoe-Counter/archive/refs/tags/v6.0.0.tar.gz
+PKG_SOURCE:=https://github.com/fumiama/CMoe-Counter/archive/refs/tags/v$(PKG_VERSION).tar.gz
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
 PKG_LICENSE:=GPL-3.0

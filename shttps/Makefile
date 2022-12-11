@@ -1,6 +1,6 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=shttps
+PKG_NAME:=simple-http-server
 PKG_RELEASE:=4
 PKG_VERSION:=4
 CMAKE_INSTALL:=1

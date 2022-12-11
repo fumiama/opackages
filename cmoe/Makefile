@@ -1,6 +1,6 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=cmoe
+PKG_NAME:=CMoe-Counter
 PKG_RELEASE:=6
 PKG_VERSION:=6.0.0
 CMAKE_INSTALL:=1

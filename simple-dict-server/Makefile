@@ -1,6 +1,6 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=simple-dict-server
+PKG_NAME:=simple-dict
 PKG_RELEASE:=10
 PKG_VERSION:=10.0.0
 CMAKE_INSTALL:=1

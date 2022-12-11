@@ -14,7 +14,7 @@ CMAKE_INSTALL:=1
 # PKG_SOURCE_DATE:=2022-05-06
 # PKG_SOURCE_VERSION:=e23ac9b6c0ad5d18097fc5f64e48cf55dfddef1a
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/fumiama/simple-protobuf/archive/refs/tags/$(PKG_RELEASE).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-protobuf/tar.gz/$(PKG_RELEASE)?
 PKG_HASH:=a3319f6399882d83f6a0b088f7f4fad74374fdaf345d857a5efc702c293a88fd
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>

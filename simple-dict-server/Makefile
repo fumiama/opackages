@@ -9,7 +9,7 @@ CMAKE_INSTALL:=1
 # PKG_SOURCE_DATE:=2022-10-28
 # PKG_SOURCE_VERSION:=14d4aeda4cf9671808aa4251489c783d58f116bf
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/fumiama/simple-dict/archive/refs/tags/v$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/fumiama/simple-dict/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=701d5a265fa5915906e18548982e702b4e31d409673ccb0b48f9895cb4df2e1d
 
 PKG_MAINTAINER:=Fumiama <nbd@nbd.name>
